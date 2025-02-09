@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 30em;
+    height: 20em;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+section{
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    padding-top: 30px;
+    padding-left: 20px;
+}

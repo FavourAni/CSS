@@ -1,0 +1,85 @@
+*{
+    background-color: azure;
+}
+body{
+    display: flex;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.container{
+    margin: 120px 0px 0px 100px;
+    
+
+}
+.container p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    line-height: 30px;
+}
+#the-form{
+    
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /*box-shadow: 5px 5px rgb(226, 227, 228); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-radius: 3px;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+}
+.first-col{
+    margin-left: 50px;
+}
+.second-col{
+    margin-left: 50px;
+}
+input{
+    width: 220px;
+    height: 35px;
+    margin-top: -10px;
+    border : 1px  solid #ccc;
+
+}
+
+select{
+    width: 230px;
+    height: 40px;
+    margin-top: -10px;
+    border : 1px  solid #ccc;
+    padding-left: 12px;
+}
+.flow{
+    margin-left: 50px;
+}
+.flow input{
+    width: 500px;
+    height: 40px;
+}
+.flow select{
+    width: 500px;
+    height: 40px;
+}
+button{
+    width: 400px;
+    height: 40px;
+    margin: 20px 0 0 100px;
+    background-color: rgb(115, 190, 173);
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+}
+h6{
+    margin: 10px 10px 30px 130px;
+
+}
+a{
+    color: rgb(115, 190, 173);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
