@@ -1,148 +1,284 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
-body {
-  background-color: #f5f8fa;
-  font-family: "Lato", serif;
-  font-weight: 400;
-  font-size: 1.1rem;
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
-header {
+.section {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  height: 5rem;
 }
-
-header + img {
-  width: 10em;
+.section ul {
+  display: flex;
+  margin-left: 35em;
+}
+.section img {
+  width: 6.7em;
+  height: 2em;
+  margin: 1em 0 0 3em;
+}
+.section li {
+  margin: 0.6em 0 0 2em;
+  list-style: none;
+  width: 5em;
+  font-size: 15px;
   
 }
-img {
-  width: 10em;
-  height: 2em;
-  margin-left: 30px;
-  margin-top: 35px;
+/*.account{
+    border: 1px solid #000;
+    width: 5em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    height: 1.3em;
 }
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0.5rem;
-}
-
-nav li {
-  padding: 1.2rem;
-}
-
-li {
-  list-style: none;
-}
+li.account{
+    margin-bottom: 0px;
+}*/
 a {
   text-decoration: none;
+  color: black;
+
+}
+a:hover {
+  width: 7em;
+  height: 3em;
+  border: 1px solid black;
+  padding-right: 2.5em;
+  padding-top: 0.3em;
+  
+}
+hr {
+  border: 1px solid rgba(236, 245, 248, 0.616);
 }
 
-.li {
-  margin-bottom: 0.5rem;
-  margin-left: -px;
-}
-
-hr{
-  height:1px;
-  border-width:0;
-  color:rgb(250, 229, 229);
-  background-color:rgb(250, 229, 229);
-}
-
-main {
+.container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  border-radius: 0.5em;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(88, 88, 87);
+  width: 800px;
+  height: 110vh;
+  margin-top: 2em;
+  margin-bottom: 7em;
+}
+
+.one h3 {
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  margin: 1.2em 0 0 2em;
+}
+.one hr {
+  width: 35em;
+  border: 1px solid rgba(151, 145, 145, 0.315);
+  margin-top: 1em;
+}
+.one {
+  width: 10em;
+  height: 60px;
+}
+.check {
+  width: 20em;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  margin: 4rem auto;
-  height: 100vh;
-  width: 55vw;
+  margin-top: 0em;
 }
 
-.checkout {
-  width: 60%;
-  height: 100%;
-  background-color: #fff;
-  padding: 2rem;
+.number {
+  width: 2.5em;
+  height: 2.5em;
+ padding-top: 0.5em;
+  border-radius: 50%;
+  border: 1px solid rgb(3, 127, 199);
+  text-align: center;
+  margin-left: -3.5em;
+}
+.check p {
+  margin-left: 0.5em;
 }
 
-.freelancer {
-  width: 40%;
-  height: 900px;
-  background-color: #1179bf;
-  padding: 2rem;
-  font-size: 1.5rem;
-  color: #fff;
-  margin-top: 10.6em;
+.form {
+  width: 32.5em;
+  height: 73vh;
 }
-
-.fullname {
+.input-form {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.formcontent {
-  flex: 1 1 calc(50%-1.5rem);
-  min-width: 150px;
-}
-
-#email {
-  width: 93%;
+  margin-left: 1em;
 }
 
 input {
-  height: 2rem;
-  background-color: #edeff2;
+  width: 15.5em;
+  height: 3em;
   border: none;
-  padding: 1rem;
-  border-radius: 5px;
-  margin: 0.5rem auto;
+  background-color: #f5ebeb;
+  margin-top: 1em;
+  padding-left: 2em;
 }
-
-.payment input {
-  width: 93%;
-  height: 2rem;
-  background-color: #edeff2;
+.ename {
+  width: 6em;
+  height: 5em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+#email {
+  width: 29em;
+  height: 3em;
   border: none;
-  border-radius: 5px;
+  background-color: #f5ebeb;
+  margin-top: 0.3em;
 }
-
-.bf {
-  font-size: 5rem;
+#card {
+  width: 35em;
 }
-
-button {
-  width: 98%;
-  padding: 1rem;
-  border: none;
-  background-color: #038e7d;
-  color: #fff;
-  border-radius: 5px;
-  margin: 1rem auto;
-  display: block;
-}
-
-form + p {
-  text-align: center;
-}
-
-p + img {
+.check-2 {
+  width: 20em;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 1rem auto;
+  align-items: center;
+  margin-top: 0em;
+}
+.check-2 p {
+  margin-left: 0.5em;
+}
+.cname {
+  width: 6em;
+  height: 5em;
+  margin-left: 1em;
+}
+button {
+  margin-top: 2em;
+  width: 33em;
+  height: 3em;
+  margin-left: 3.5em;
+  color: #fff;
+  border: none;
+  background-color: rgb(0, 128, 128);
+  border-radius: 0.3em;
 }
 
-.kirk {
+.final {
+  margin-left: 6em;
+}
+.final span {
+  color: rgba(107, 111, 119, 0.623);
+}
+.power {
+  margin-left: 24em;
+  width: 9.8em;
+  height: 2em;
+  background-color: rgba(107, 111, 119, 0.623);
+  color: #fff;
+  border-radius: 0.2em;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  font-size: 0.6em;
+  font-weight: 100;
+}
+.power span {
+  font-weight: bold;
+  font-size: 1em;
+  font-family: serif;
+}
+
+.two {
+  width: 17em;
+  height: auto;
+  background-color: rgb(3, 127, 199);
+  border-radius: 0 0.5em 0.5em 0;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  width: 3em;
+  height: 3em;
+}
+.two-content {
+  color: #fff;
+  margin-left: 2em;
+  margin-top: 1.7em;
+
+  width: 16em;
+  height: 110vh;
+}
+.free {
+  display: flex;
+  margin-top: -4.5em;
+  height: 3.8em;
+}
+.free span {
+  font-size: 2.9em;
+  margin-left: 0.1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: -4em;
+  font-weight: 100;
+}
+h2 {
+  font-weight: 100;
+  font-size: 1.2em;
+}
+h3 sup {
+  font-size: 1.3em;
+  margin-top: 8em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.switch{
+
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-decoration: underline;
+}
+.switch:hover{
+  border: none;
+}
+em{
+  color: #ffefefea;
+}
+.wp{
+  color: #fff;
+}
+.agt{
+  margin-right: 5em;
+  width: 13em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.ulr{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 16em;
+  height: 5em;
+  list-style: none;
+  line-height: 1.5em;
+}
+.fa-circle-check{
+  padding-left: -2em;
+  padding-right: 0.4em;
+  color: #ffefefea;
+  
+}
+
+.ulr span{
+  color: #ffefefea;
+  font-size: 16px;
+  padding-right: -3em;
+}
+.end{
+  display: flex;
+  
+}
+.end img{
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  margin-left: -4px;
+}
+.end p{
+  padding-left: 0.7em;
+  font-size: 12px;
 }
